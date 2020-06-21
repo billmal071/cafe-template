@@ -64,23 +64,23 @@ p {
 
 //coffee image
 header {
-    background-image: url('../images/index/brown-gray-coffee.png');
+    background-image: url('../images/brown-gray-coffee.png');
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
     width: 100%;
     min-height: 690px;
     position: relative;
-}
 
-header::after {
-    content: '';
+    &::after {
+        content: '';
     background-color: rgba(0, 0, 0, 0.59);
     position: absolute;
     width: 100%;
     height: 100%;
     top: 0;
     z-index: 1;
+    }
 }
 
 nav,
@@ -91,22 +91,22 @@ footer>div {
 }
 
 footer {
-    background-image: url('../images/index/footer-image.png');
+    background-image: url('../images/footer-image.png');
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
     width: 100%;
     position: relative;
-}
 
-footer::after {
-    content: '';
+    &::after {
+        content: '';
     background-color: rgba(0, 0, 0, 0.59);
     position: absolute;
     width: 100%;
     height: 100%;
     top: 0;
     z-index: 1;
+    }
 }
 
 //buttons
