@@ -27,11 +27,11 @@ toggler.addEventListener("click", function () {
   open = !open;
   console.log(logo);
   if (open) {
-    logo.src = "images/logo2.svg";
+    logo.src = "images/about/logo2.svg";
     hamburger.classList.add("nav-toggler-alt");
     togglerLinks.classList.add("show-nav");
   } else {
-    logo.src = "images/logo.svg";
+    logo.src = "images/about/logo.svg";
     hamburger.classList.remove("nav-toggler-alt");
     togglerLinks.classList.remove("show-nav");
   }
