@@ -1,0 +1,146 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./scss/style.css">
+    <link rel="stylesheet" href="./bootstrap/css/bootstrap.min.css">
+    <link
+        href="https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300;0,400;0,600;0,700;0,800;1,300;1,400;1,600;1,700;1,800&amp;display=swap"
+        rel="stylesheet">
+    <script defer src="./bootstrap/js/bootstrap.min.js"></script>
+    <script src="./bootstrap/js/jquery.min.js"></script>
+    <script defer src="./js/app.js"></script>
+    <title>CAFE - HOME</title>
+</head>
+
+<body>
+    <header class="bg-dark d-flex flex-column">
+        <nav class="navbar navbar-expand-md navbar-dark py-4 padding-lr fixed-top header" id="myHeader navbarText">
+            <!-- Brand -->
+            <a class="navbar-brand" id="header-logo" href="#">
+                <img src="./images/logo.svg" alt="" class="img-fluid">
+            </a>
+
+            <!-- Toggler/collapsibe Button -->
+            <button class="navbar-toggler" id="nav-toggler" type="button" data-toggle="collapse" data-target="#collapsibleNavbar">
+                <span class="navbar-toggler-icon" id="navbar-toggler-icon"></span>
+            </button>
+
+            <!-- Navbar links -->
+            <div class="collapse navbar-collapse justify-content-md-end text-center" id="collapsibleNavbar">
+                <ul class="navbar-nav text-capitalize">
+                    <li class="nav-item">
+                        <a class="nav-link gold-text px-4" href="#">home</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link text-white px-4" href="#">about</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link text-white px-4" href="#">menu</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link text-white px-4" href="#">contact</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link gold-filled-btn link text-white px-4" href="#">order a cup</a>
+                    </li>
+                </ul>
+            </div>
+        </nav>
+
+        <section class="d-flex justify-content-center align-items-center text-center margin-top">
+            <div class="align-self-center">
+                <h1 class="gold-text">Welcome to KofiCafe</h1>
+                <div class="mt-5">
+                    <a href="" class="gold-filled-btn mr-2 ">Order a Cup</a><a href=""
+                        class="transparent-btn ml-2 text-capitalize">View
+                        Menu</a>
+                </div>
+            </div>
+        </section>
+    </header>
+
+    <main>
+        <section class="text-center light-black py-5">
+            <h2 class="text-capitalize gold-text ">about us</h2>
+            <h4 class="text-white my-5 text-center center-text px-3">KofiCafe is known for its creamy taste, smells and
+                how it makes you feel alert and happy after grabbing a cup.
+                When it comes to varieties of flavours, KofiCafe got you
+                covered.</h4>
+            <a href="" class="transparent-btn ml-2 text-capitalize">learn more</a>
+        </section>
+
+        <section class="text-center deep-black py-5">
+            <h2 class="gold-text text-capitalize mb-4">featured menu</h2>
+            <div class="d-flex flex-lg-row flex-column justify-content-center">
+                <div class="px-3 py-sm-3">
+                    <img src="./images/irish-coffee.png" class="img-fluid" alt="irish coffee">
+                    <h3 class="gold-text text-capitalize">irish coffee</h3>
+                    <h3 class="text-white">$4</h3>
+                </div>
+                <div class="px-3 py-sm-3">
+                    <img src="./images/Caffe-Americano.png" class="img-fluid" alt="caffe americano">
+                    <h3 class="gold-text text-capitalize">caffe americano</h3>
+                    <h3 class="text-white">$2</h3>
+                </div>
+                <div class="px-3 py-sm-3">
+                    <img src="./images/filter-coffee.png" class="img-fluid" alt="filter-coffee">
+                    <h3 class="gold-text text-capitalize">filter coffee</h3>
+                    <h3 class="text-white">$4.5</h3>
+                </div>
+            </div>
+            <a href="" class="gold-filled-btn mt-5"> view menu</a>
+        </section>
+
+        <section class="text-center light-black py-5">
+            <div class="d-flex flex-lg-column flex-sm-column justify-content-center">
+                <div class="px-3">
+                    <img src="./images/Rectangle-25.png" class="img-fluid px-sm-3 py-3" alt="">
+                    <img src="./images/Rectangle-47.png" class="img-fluid px-sm-3 py-3" alt="">
+                    <img src="./images/Rectangle-43.png" class="img-fluid px-sm-3 py-3" alt="">
+                    <img src="./images/Rectangle-39.png" class="img-fluid px-sm-3 py-3" alt="">
+                </div>
+                <div class="px-3">
+                    <img src="./images/Rectangle-25.png" class="img-fluid px-sm-3 py-3" alt="">
+                    <img src="./images/Rectangle-47.png" class="img-fluid px-sm-3 py-3" alt="">
+                    <img src="./images/Rectangle-43.png" class="img-fluid px-sm-3 py-3" alt="">
+                    <img src="./images/Rectangle-39.png" class="img-fluid px-sm-3 py-3" alt="">
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <footer class="deep-black pt-5">
+        <div class="row mx-5 mt-5 px-lg-5">
+            <div class="col-sm-4 margin-bottom">
+                <img src="./images/logo.svg" alt="" class="img-fluid mb-2" id="footer-logo">
+                <p class="text-white"> <img src="./images/phone.png" alt="" class="mr-2 img-resize"> 08126325978,
+                    01563928</p>
+                <p class="text-white"> <img src="./images/locator.png" alt="" class="mr-2 img-resize"> 3100 Eve Street,
+                    Riverside,
+                    CA 83412</p>
+                <p class="text-white"> <img src="./images/email.png" alt="" class="mr-2 img-resize"> info@koficafe.com
+                </p>
+            </div>
+            <div class="col-sm-4 margin-bottom">
+                <h4 class="gold-text text-capitalize font-weight-bold">working days</h4>
+                <p class="text-capitalize text-white">monday - friday</p>
+                <p class="gold-text">9am - 9pm</p>
+                <p class="text-capitalize text-white">saturday - sunday</p>
+                <p class="gold-text">10am - 4pm</p>
+            </div>
+            <div class="col-sm-4 margin-bottom">
+                <h4 class="gold-text text-capitalize font-weight-bold">follow us</h4>
+                <a href=""><img src="./images/facebook.png" alt="" class="mr-2 img-resize"></a>
+                <a href=""><img src="./images/instagram.png" alt="" class="mr-2 img-resize"></a>
+                <a href=""><img src="./images/twitter.png" alt="" class="mr-2 img-resize"></a>
+            </div>
+            <p class="gold-text mt-5 pl-3">&copy;2020 KofiCafe All Right Reserved</p>
+        </div>
+    </footer>
+
+</body>
+
+</html>
