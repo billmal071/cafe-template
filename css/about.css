@@ -244,7 +244,7 @@ img {
       rgba(0, 0, 0, 0.9) 50%,
       rgba(0, 0, 0, 0.9) 100%
     ),
-    url("./assets/footer-background.jpg");
+    url("../images/about/footer-background.jpg");
   height: auto;
   background-repeat: no-repeat;
   background-size: cover;
