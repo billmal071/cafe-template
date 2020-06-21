@@ -110,11 +110,6 @@ li.row i {
   width: 120px;
 }
 
-.footer {
-  display: flex;
-  align-items: center;
-}
-
 @media only screen and (max-width: 600px) {
   .text-center-sm {
     text-align: center;
