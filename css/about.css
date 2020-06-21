@@ -24,7 +24,7 @@ body {
       rgba(34, 34, 34, 0.6) 50%,
       rgba(34, 34, 34, 0.6) 100%
     ),
-    url("./assets/Cafe-pic.svg");
+    url("../images/about/Cafe-pic.svg");
   min-height: 100vh;
   background-repeat: no-repeat;
   background-size: cover;
@@ -244,7 +244,7 @@ img {
       rgba(0, 0, 0, 0.9) 50%,
       rgba(0, 0, 0, 0.9) 100%
     ),
-    url("./assets/footer-background.jpg");
+    url("../images/about/footer-background.jpg");
   height: auto;
   background-repeat: no-repeat;
   background-size: cover;
