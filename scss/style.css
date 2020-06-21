@@ -28,7 +28,7 @@ p {
 }
 
 header {
-  background-image: url("../images/index/brown-gray-coffee.png");
+  background-image: url("../images/brown-gray-coffee.png");
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
@@ -55,7 +55,7 @@ footer > div {
 }
 
 footer {
-  background-image: url("../images/index/footer-image.png");
+  background-image: url("../images/footer-image.png");
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
