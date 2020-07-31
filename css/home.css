@@ -145,6 +145,10 @@ footer>div {
   color: #f8be2a;
 }
 
+#logo {
+    width: 120px;
+}
+
 .top-link {
   margin: 0 20px;
   color: #fff;
